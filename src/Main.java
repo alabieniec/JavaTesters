@@ -19,6 +19,24 @@ public class Main {
         System.out.println(e);
         System.out.println(f);
         System.out.println(g);
+
+        System.out.println("2. Zadeklaruj dwie zmienne liczbowe, oraz wypisz na ekran wyniki kilku podstawowych działań które można na nich wykonać (+, -, *, /, %).");
+        int a1=2;
+        int b1=3;
+        System.out.println("liczba1: "+a1);
+        System.out.println("liczba2: "+b1);
+
+        int suma=a1+b1;
+        int odejmowanie=a1-b1;
+        int mnozenie=a1*b1;
+        double dzielenie= (double) a1/b1;
+        int modulo=a1%b1;
+
+        System.out.println("Dodawanie: "+ suma);
+        System.out.println("Odejmowanie: "+odejmowanie);
+        System.out.println("Mnozenie: "+mnozenie);
+        System.out.println("Dzielenie: "+dzielenie);
+        System.out.println("Modulo: "+modulo);
     }
 
 //    public static int main(String[] args)
