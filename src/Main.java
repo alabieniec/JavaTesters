@@ -1,14 +1,29 @@
 public class Main {
 
     public static void main(String[] args) {
+
+        Zadanie1();
+
+        int a1 = 2;
+        int b1 = 3;
+        Zadanie2(a1,b1);
+
+        double stopniecelcjusza=10;
+        double stopnieF=Zadanie3Farenhajta(stopniecelcjusza);
+        System.out.println("Stopnie Farenhajta: "+stopnieF);
+
+        System.out.println("Stopnie celcjusza: "+ Zadanie3Celcjusza(stopnieF));
+    }
+
+    public static void Zadanie1() {
         System.out.println("1. W ramach testów zadeklaruj po jednej zmiennej typów: boolean, char, int, long, float, dobule, String, oraz wypisz je na konsolę.");
 
-        boolean a=true;
-        char b='b';
-        int c=100;
-        long d=100000;
-        float e=3.14f;
-        double f=3.14;
+        boolean a = true;
+        char b = 'b';
+        int c = 100;
+        long d = 100000;
+        float e = 3.14f;
+        double f = 3.14;
 
         String g = "Agnieszka";
 
@@ -20,27 +35,38 @@ public class Main {
         System.out.println(f);
         System.out.println(g);
 
-        System.out.println("2. Zadeklaruj dwie zmienne liczbowe, oraz wypisz na ekran wyniki kilku podstawowych działań które można na nich wykonać (+, -, *, /, %).");
-        int a1=2;
-        int b1=3;
-        System.out.println("liczba1: "+a1);
-        System.out.println("liczba2: "+b1);
-
-        int suma=a1+b1;
-        int odejmowanie=a1-b1;
-        int mnozenie=a1*b1;
-        double dzielenie= (double) a1/b1;
-        int modulo=a1%b1;
-
-        System.out.println("Dodawanie: "+ suma);
-        System.out.println("Odejmowanie: "+odejmowanie);
-        System.out.println("Mnozenie: "+mnozenie);
-        System.out.println("Dzielenie: "+dzielenie);
-        System.out.println("Modulo: "+modulo);
     }
 
-//    public static int main(String[] args)
-//    {
-//        return 15;
-//    }
+    public static void Zadanie2(int a1, int b1) {
+        System.out.println("2. Zadeklaruj dwie zmienne liczbowe, oraz wypisz na ekran wyniki kilku podstawowych działań które można na nich wykonać (+, -, *, /, %).");
+
+        System.out.println("liczba1: " + a1);
+        System.out.println("liczba2: " + b1);
+
+        int suma = a1 + b1;
+        int odejmowanie = a1 - b1;
+        int mnozenie = a1 * b1;
+        double dzielenie = (double) a1 / b1;
+        int modulo = a1 % b1;
+
+        System.out.println("Dodawanie: " + suma);
+        System.out.println("Odejmowanie: " + odejmowanie);
+        System.out.println("Mnozenie: " + mnozenie);
+        System.out.println("Dzielenie: " + dzielenie);
+        System.out.println("Modulo: " + modulo);
+    }
+
+
+//Celcjusza to Farenhajta
+
+    public static double Zadanie3Farenhajta(double stopnieC)
+    {
+
+        return (1.8 * stopnieC + 32.0);
+    }
+    public static double Zadanie3Celcjusza(double stopnieF)
+    {
+
+        return ((stopnieF-32)/1.8);
+    }
 }
