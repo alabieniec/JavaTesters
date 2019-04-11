@@ -3,16 +3,21 @@ public class Main {
     public static void main(String[] args) {
 
         Zadanie1();
-
+        System.out.println("--------------------------------");
         int a1 = 2;
         int b1 = 3;
         Zadanie2(a1,b1);
-
+        System.out.println("--------------------------------");
         double stopniecelcjusza=10;
         double stopnieF=Zadanie3Farenhajta(stopniecelcjusza);
         System.out.println("Stopnie Farenhajta: "+stopnieF);
 
         System.out.println("Stopnie celcjusza: "+ Zadanie3Celcjusza(stopnieF));
+        System.out.println("--------------------------------");
+        int wielocyfrowazmienna=1234567890;
+        Zadnie4(wielocyfrowazmienna);
+
+
     }
 
     public static void Zadanie1() {
@@ -69,4 +74,26 @@ public class Main {
 
         return ((stopnieF-32)/1.8);
     }
+    //wyliczyc sume i srednia cyfr
+    private static void Zadnie4(int wielocyfrowazmienna) {
+
+        int suma=0;
+        int cyfra;
+        int i=0;
+
+        while(wielocyfrowazmienna>0)
+        {
+            cyfra=wielocyfrowazmienna%10;
+            suma+=cyfra;
+            i++;
+            wielocyfrowazmienna/=10;
+
+        }
+        System.out.println("Ilosc cyfr: "+i);
+        double srednia=(double)suma/i;
+        System.out.println("Suma: "+suma);
+        System.out.println("srednia: "+srednia);
+
+    }
+
 }
