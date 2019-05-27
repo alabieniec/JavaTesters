@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="10cfa829-f3c3-456a-89ca-0ad698027c4f" name="Default Changelist" comment="Zajecia 4 - part 1">
+    <list default="true" id="10cfa829-f3c3-456a-89ca-0ad698027c4f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaTesters/zajecia3/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaTesters/zajecia3/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/zajecia2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/zajecia2/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/zajecia3/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/zajecia3/Main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,6 +13,9 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/JavaTesters$Main__1_.ic" NAME="Main (1) Coverage Results" MODIFIED="1558960912680" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>zajecia2.*</FILTER>
+    </SUITE>
     <SUITE FILE_PATH="coverage/JavaTesters$Main.ic" NAME="Main Coverage Results" MODIFIED="1554901300502" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="FUSProjectUsageTrigger">
@@ -30,14 +31,14 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="8359" />
-          <entry key="txt" value="47" />
+          <entry key="java" value="9139" />
+          <entry key="txt" value="61" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="8359" />
-          <entry key="PLAIN_TEXT" value="47" />
+          <entry key="JAVA" value="9139" />
+          <entry key="PLAIN_TEXT" value="61" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -88,27 +89,26 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/zajecia2/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="16" column="28" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
+            <state relative-caret-position="209">
+              <caret line="71" column="38" selection-start-line="71" selection-start-column="38" selection-end-line="71" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="method#SprawdzCzyLiczbapierwsza#0;class#Main#0" />
                 <element signature="method#DzienTygodnia#0;class#Main#0" />
                 <element signature="method#PoraRoku#0;class#Main#0" />
-                <element signature="method#ProstyKalkulator#0;class#Main#0" />
-                <element signature="method#createtable#0;class#Main#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/zajecia3/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="591">
-              <caret line="73" column="40" selection-start-line="73" selection-start-column="40" selection-end-line="73" selection-end-column="40" />
+            <state relative-caret-position="540">
+              <caret line="73" column="40" lean-forward="true" selection-start-line="73" selection-start-column="40" selection-end-line="73" selection-end-column="40" />
               <folding>
                 <element signature="method#SprawdzCzyZero#0;class#Main#0" />
                 <element signature="method#CiagFibonacciego#0;class#Main#0" />
@@ -165,8 +165,8 @@
         <option value="$PROJECT_DIR$/src/zajecia4/Ksiazka.java" />
         <option value="$PROJECT_DIR$/src/zajecia4/Main.java" />
         <option value="$PROJECT_DIR$/src/zajecia4/Samochod.java" />
-        <option value="$PROJECT_DIR$/src/zajecia2/Main.java" />
         <option value="$PROJECT_DIR$/src/zajecia3/Main.java" />
+        <option value="$PROJECT_DIR$/src/zajecia2/Main.java" />
       </list>
     </option>
   </component>
@@ -230,7 +230,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558960302230" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558963775276" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -248,7 +248,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main (2)">
+  <component name="RunManager" selected="Application.Main (1)">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="zajecia2.Main" />
       <module name="JavaTesters" />
@@ -306,9 +306,9 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main (3)" />
-        <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -359,7 +359,14 @@
       <option name="project" value="LOCAL" />
       <updated>1557391488903</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Zajecia 3 - caly homework">
+      <created>1558960341677</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1558960341677</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -405,7 +412,8 @@
     <MESSAGE value="Zadanie 4" />
     <MESSAGE value="Zajecia 3" />
     <MESSAGE value="Zajecia 4 - part 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Zajecia 4 - part 1" />
+    <MESSAGE value="Zajecia 3 - caly homework" />
+    <option name="LAST_COMMIT_MESSAGE" value="Zajecia 3 - caly homework" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -415,6 +423,12 @@
           <line>82</line>
           <properties />
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/zajecia2/Main.java</url>
+          <line>72</line>
+          <properties />
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -448,20 +462,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/zajecia2/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="16" column="28" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#DzienTygodnia#0;class#Main#0" />
-            <element signature="method#PoraRoku#0;class#Main#0" />
-            <element signature="method#ProstyKalkulator#0;class#Main#0" />
-            <element signature="method#createtable#0;class#Main#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/zajecia4/Czlowiek.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -482,8 +482,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/zajecia3/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="591">
-          <caret line="73" column="40" selection-start-line="73" selection-start-column="40" selection-end-line="73" selection-end-column="40" />
+        <state relative-caret-position="540">
+          <caret line="73" column="40" lean-forward="true" selection-start-line="73" selection-start-column="40" selection-end-line="73" selection-end-column="40" />
           <folding>
             <element signature="method#SprawdzCzyZero#0;class#Main#0" />
             <element signature="method#CiagFibonacciego#0;class#Main#0" />
@@ -493,6 +493,19 @@
             <element signature="method#SumaElTablicy#1;class#Main#0" />
             <element signature="method#liczbyPodzielnePrzez5lub3#0;class#Main#0" />
             <element signature="method#Silnia#0;class#Main#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/zajecia2/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="71" column="38" selection-start-line="71" selection-start-column="38" selection-end-line="71" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#SprawdzCzyLiczbapierwsza#0;class#Main#0" />
+            <element signature="method#DzienTygodnia#0;class#Main#0" />
+            <element signature="method#PoraRoku#0;class#Main#0" />
           </folding>
         </state>
       </provider>

@@ -37,9 +37,76 @@ public class Main {
         System.out.println("Wynik dzialania "+znak+ " : "+ProstyKalkulator(liczba1, liczba2, znak));
 
         ////------------ zadanie II/1 /////////////////
-        System.out.println(createtable());
-        ////------------ zadanie II/2 /////////////////
+        System.out.println(createtable(3));
 
+        ////------------ zadanie II/2 /////////////////
+        System.out.println("Zadanie II/2");
+        int[] tablica_pierwsza=createtable(10);
+        int[] tablica_druga= new int[10];
+        for (int i = 0; i < 10; i++) {
+            tablica_druga[i]=tablica_pierwsza[9-i];
+        }
+        for (int i = 0; i < 10; i++) {
+            System.out.print(tablica_druga[i]+ " ");
+        }
+        System.out.println();
+
+        ////------------ zadanie II/3 /////////////////
+        System.out.println("Zadanie II/3");
+        int n = 99;
+        boolean pierwsza=SprawdzCzyLiczbapierwsza(n);
+        System.out.println("Liczba pierwsza: "+pierwsza);
+
+        ////------------ zadanie II/4 /////////////////
+        System.out.println("Zadanie II/4");
+        TabliczkaMnozenia();
+
+        ////------------ zadanie II/5 /////////////////
+        System.out.println("Zadanie II/5");
+        RysujChoinke(10);
+    }
+
+    private static void RysujChoinke(int n) {
+        int pom=n;
+        for (int j = 0; j < n; j++) {
+            for (int i = 0; i < 2*n; i++) {
+                if (i<=pom+j && i>=pom-j)
+                {
+                    System.out.print("*");
+                }
+                else
+                {
+                    System.out.print(" ");
+                }
+            }
+
+            System.out.println();
+        }
+    }
+
+    private static void TabliczkaMnozenia() {
+        int wynik=0;
+        for (int i = 0; i < 10; i++) {
+            for (int j = 0; j < 10; j++) {
+                wynik=i*j;
+                System.out.print(j+"x"+i+"="+wynik+" ");
+                if (wynik/10==0) {
+                    System.out.print(" ");
+                }
+            }
+            System.out.println();
+        }
+
+    }
+
+    private static boolean SprawdzCzyLiczbapierwsza(int n) {
+        for (int i = 2; i < n-1; i++) {
+            if (n%i==0)
+            {
+                return false;
+            }
+        }
+        return true;
     }
 
     public static String DzienTygodnia(int number) {
@@ -131,9 +198,9 @@ public class Main {
 
     }
 
-    public static String createtable()
+    public static int[] createtable(int wielkosc_tablicy)
     {
-        int tab[]= new int[3];
+        int tab[]= new int[wielkosc_tablicy];
         Random r=new Random();
         for (int i = 0; i < tab.length; i++) {
             tab[i]= r.nextInt(100);
@@ -146,7 +213,8 @@ public class Main {
             wartoscitablicy+=tab[i]+" ";
         }
 
-        return wartoscitablicy;
+        System.out.println(wartoscitablicy);
+        return tab;
     }
    // public static String Create2tables()
     //{
