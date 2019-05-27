@@ -148,4 +148,10 @@ public class Main {
 
         return wartoscitablicy;
     }
+   // public static String Create2tables()
+    //{
+       // int[] tab1 = new int[10];
+      //  int[] tab2 = new int[10];
+
+    //}
 }
