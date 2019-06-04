@@ -12,7 +12,8 @@ public class Samochod {
     private String color;
     private int przebieg;
     private double ile_paliwa=0;
-    private double spalanie_paliwa;
+    private double spalanie_paliwa=7.5;
+    private double zbiornik_paliwa=50.0;
 
     public Samochod(String marka, String color, int przebieg, double spalanie_paliwa) {
         this.marka = marka;
@@ -24,7 +25,7 @@ public class Samochod {
     public void CotoZaAuto()
     {
         System.out.println("Marka: "+this.marka);
-        System.out.println("Kolor: "+color);
+        System.out.println("Kolor: "+this.color);
 
     }
     public double ilePaliwawZbiorniku()
@@ -39,11 +40,33 @@ public class Samochod {
     {
         //7.5 l/100 km
         //sprawdzamy czy starczy paliwa
-       /*if ((7.5/100*ilosc_km)<=ile_paliwa)
-           przebieg+=ilosc_km;
-       else*/
+        double spalanie=7.5/100;
+        if (spalanie*ilosc_km<=ile_paliwa) {
+            przebieg += ilosc_km;
+            ile_paliwa -= (spalanie * ilosc_km);
+        }
+        else
+        {
+            System.out.println("Koniec paliwa!!!");
+            przebieg+=(ile_paliwa/spalanie);
+            ile_paliwa=0;
+        }
+
 
     }
+    public void Tankuj(double ilosc_l)
+    {
 
+
+        if (ile_paliwa+ilosc_l<=zbiornik_paliwa)
+            ile_paliwa+=ilosc_l;
+        else
+        {
+            System.out.println("Pelny zbiornik!!!");
+            ile_paliwa=zbiornik_paliwa;
+        }
+
+
+    }
 
 }

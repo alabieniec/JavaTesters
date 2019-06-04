@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="10cfa829-f3c3-456a-89ca-0ad698027c4f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaTesters/zajecia2/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaTesters/zajecia2/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zajecia4/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/zajecia4/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zajecia4/Samochod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/zajecia4/Samochod.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,14 +32,14 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="9142" />
-          <entry key="txt" value="62" />
+          <entry key="java" value="9689" />
+          <entry key="txt" value="63" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="9142" />
-          <entry key="PLAIN_TEXT" value="62" />
+          <entry key="JAVA" value="9689" />
+          <entry key="PLAIN_TEXT" value="63" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -71,11 +72,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/zajecia4/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="9" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
+            <state relative-caret-position="510">
+              <caret line="30" column="18" lean-forward="true" selection-start-line="30" selection-start-column="18" selection-end-line="30" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -83,17 +84,22 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/zajecia4/Samochod.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="680">
-              <caret line="46" selection-start-line="46" selection-end-line="46" />
+            <state relative-caret-position="748">
+              <caret line="47" column="12" lean-forward="true" selection-start-line="47" selection-start-column="12" selection-end-line="47" selection-end-column="12" />
+              <folding>
+                <element signature="e#1011#1012#0" expanded="true" />
+                <element signature="e#1044#1045#0" expanded="true" />
+                <element signature="method#&lt;unnamed&gt;#0;class#Samochod#0" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/zajecia2/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="472">
-              <caret line="65" column="25" lean-forward="true" selection-start-line="65" selection-start-column="25" selection-end-line="65" selection-end-column="25" />
+            <state relative-caret-position="642">
+              <caret line="75" column="17" lean-forward="true" selection-start-line="74" selection-start-column="40" selection-end-line="75" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#SprawdzCzyLiczbapierwsza#0;class#Main#0" />
@@ -107,11 +113,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/zajecia3/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="73" column="40" lean-forward="true" selection-start-line="73" selection-start-column="40" selection-end-line="73" selection-end-column="40" />
+            <state relative-caret-position="492">
+              <caret line="46" column="45" selection-start-line="46" selection-start-column="45" selection-end-line="46" selection-end-column="45" />
               <folding>
                 <element signature="method#SprawdzCzyZero#0;class#Main#0" />
-                <element signature="method#CiagFibonacciego#0;class#Main#0" />
                 <element signature="method#PrzesuwamyTabliceWprawo#0;class#Main#0" />
                 <element signature="method#Dzielnik#0;class#Main#0" />
                 <element signature="method#SumaElTablicy#0;class#Main#0" />
@@ -163,10 +168,10 @@
         <option value="$PROJECT_DIR$/src/Main.java" />
         <option value="$PROJECT_DIR$/src/zajecia4/Czlowiek.java" />
         <option value="$PROJECT_DIR$/src/zajecia4/Ksiazka.java" />
-        <option value="$PROJECT_DIR$/src/zajecia4/Main.java" />
-        <option value="$PROJECT_DIR$/src/zajecia4/Samochod.java" />
         <option value="$PROJECT_DIR$/src/zajecia3/Main.java" />
         <option value="$PROJECT_DIR$/src/zajecia2/Main.java" />
+        <option value="$PROJECT_DIR$/src/zajecia4/Samochod.java" />
+        <option value="$PROJECT_DIR$/src/zajecia4/Main.java" />
       </list>
     </option>
   </component>
@@ -230,7 +235,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559656117125" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559658059843" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -248,7 +253,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main (2)">
+  <component name="RunManager" selected="Application.Main (3)">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="zajecia2.Main" />
       <module name="JavaTesters" />
@@ -306,9 +311,9 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (3)" />
         <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main (1)" />
-        <item itemvalue="Application.Main (3)" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -373,7 +378,21 @@
       <option name="project" value="LOCAL" />
       <updated>1558963786312</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Zajecia 2 - caly homework">
+      <created>1559656074161</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1559656074161</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Zajecia 3 - caly homework">
+      <created>1559656139750</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1559656139750</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -398,7 +417,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50067115" side_tool="true" weight="0.32907802" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.04680851" />
-      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49932885" weight="0.32907802" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49932885" weight="0.3286334" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -419,9 +438,9 @@
     <MESSAGE value="Zadanie 4" />
     <MESSAGE value="Zajecia 3" />
     <MESSAGE value="Zajecia 4 - part 1" />
-    <MESSAGE value="Zajecia 3 - caly homework" />
     <MESSAGE value="Zajecia 2 - caly homework" />
-    <option name="LAST_COMMIT_MESSAGE" value="Zajecia 2 - caly homework" />
+    <MESSAGE value="Zajecia 3 - caly homework" />
+    <option name="LAST_COMMIT_MESSAGE" value="Zajecia 3 - caly homework" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -456,27 +475,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/zajecia4/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="9" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/zajecia4/Samochod.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="46" selection-start-line="46" selection-end-line="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/zajecia4/Czlowiek.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/zajecia4/Ksiazka.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="765">
@@ -488,13 +486,25 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/zajecia2/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="642">
+          <caret line="75" column="17" lean-forward="true" selection-start-line="74" selection-start-column="40" selection-end-line="75" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#SprawdzCzyLiczbapierwsza#0;class#Main#0" />
+            <element signature="method#DzienTygodnia#0;class#Main#0" />
+            <element signature="method#PoraRoku#0;class#Main#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/zajecia3/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="73" column="40" lean-forward="true" selection-start-line="73" selection-start-column="40" selection-end-line="73" selection-end-column="40" />
+        <state relative-caret-position="492">
+          <caret line="46" column="45" selection-start-line="46" selection-start-column="45" selection-end-line="46" selection-end-column="45" />
           <folding>
             <element signature="method#SprawdzCzyZero#0;class#Main#0" />
-            <element signature="method#CiagFibonacciego#0;class#Main#0" />
             <element signature="method#PrzesuwamyTabliceWprawo#0;class#Main#0" />
             <element signature="method#Dzielnik#0;class#Main#0" />
             <element signature="method#SumaElTablicy#0;class#Main#0" />
@@ -505,16 +515,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/zajecia2/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/zajecia4/Czlowiek.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="472">
-          <caret line="65" column="25" lean-forward="true" selection-start-line="65" selection-start-column="25" selection-end-line="65" selection-end-column="25" />
+        <state relative-caret-position="306">
+          <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/zajecia4/Samochod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="748">
+          <caret line="47" column="12" lean-forward="true" selection-start-line="47" selection-start-column="12" selection-end-line="47" selection-end-column="12" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#SprawdzCzyLiczbapierwsza#0;class#Main#0" />
-            <element signature="method#DzienTygodnia#0;class#Main#0" />
-            <element signature="method#PoraRoku#0;class#Main#0" />
+            <element signature="e#1011#1012#0" expanded="true" />
+            <element signature="e#1044#1045#0" expanded="true" />
+            <element signature="method#&lt;unnamed&gt;#0;class#Samochod#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/zajecia4/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="30" column="18" lean-forward="true" selection-start-line="30" selection-start-column="18" selection-end-line="30" selection-end-column="18" />
         </state>
       </provider>
     </entry>
