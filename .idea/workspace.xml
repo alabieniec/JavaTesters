@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="10cfa829-f3c3-456a-89ca-0ad698027c4f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/zajecia5/Ksiazka.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/zajecia5/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/zajecia5/Rodzaj.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/zajecia7/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/zajecia4/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/zajecia4/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/zajecia4/Samochod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/zajecia4/Samochod.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -32,24 +35,24 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="9689" />
-          <entry key="txt" value="63" />
+          <entry key="java" value="11348" />
+          <entry key="txt" value="64" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="9689" />
-          <entry key="PLAIN_TEXT" value="63" />
+          <entry key="JAVA" value="11348" />
+          <entry key="PLAIN_TEXT" value="64" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="9" />
+          <entry key="java" value="15" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="9" />
+          <entry key="JAVA" value="15" />
         </counts>
       </usages-collector>
     </session>
@@ -57,39 +60,36 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" selection-start-line="4" selection-start-column="4" selection-end-line="5" />
-              <folding>
-                <element signature="method#Zadanie1#0;class#Main#0" />
-                <element signature="method#Zadanie2#0;class#Main#0" />
-                <element signature="method#Zadanie3Farenhajta#0;class#Main#0" />
-                <element signature="method#Zadanie3Celcjusza#0;class#Main#0" />
-                <element signature="method#Zadnie4#0;class#Main#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/zajecia4/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
+            <state relative-caret-position="285">
               <caret line="30" column="18" lean-forward="true" selection-start-line="30" selection-start-column="18" selection-end-line="30" selection-end-column="18" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/zajecia4/Samochod.java">
+        <entry file="file://$PROJECT_DIR$/src/zajecia5/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="748">
-              <caret line="47" column="12" lean-forward="true" selection-start-line="47" selection-start-column="12" selection-end-line="47" selection-end-column="12" />
+            <state relative-caret-position="221">
+              <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/zajecia7/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="302">
+              <caret line="96" column="10" selection-start-line="96" selection-start-column="10" selection-end-line="96" selection-end-column="10" />
               <folding>
-                <element signature="e#1011#1012#0" expanded="true" />
-                <element signature="e#1044#1045#0" expanded="true" />
-                <element signature="method#&lt;unnamed&gt;#0;class#Samochod#0" />
+                <element signature="imports" expanded="true" />
+                <element signature="method#Zadanie1#0;class#Main#0" />
+                <element signature="e#254#262#0" expanded="true" />
+                <element signature="method#Zadanie2#0;class#Main#0" />
+                <element signature="e#550#556#0" expanded="true" />
+                <element signature="method#Zadanie3#0;class#Main#0" />
+                <element signature="e#1067#1075#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -98,8 +98,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/zajecia2/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="642">
-              <caret line="75" column="17" lean-forward="true" selection-start-line="74" selection-start-column="40" selection-end-line="75" selection-end-column="17" />
+            <state relative-caret-position="306">
+              <caret line="24" column="32" lean-forward="true" selection-start-line="20" selection-start-column="8" selection-end-line="24" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#SprawdzCzyLiczbapierwsza#0;class#Main#0" />
@@ -111,9 +111,43 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/zajecia5/Rodzaj.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/zajecia5/Ksiazka.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" column="29" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/zajecia4/Samochod.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="26" column="26" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="26" />
+              <folding>
+                <element signature="e#1011#1012#0" expanded="true" />
+                <element signature="e#1044#1045#0" expanded="true" />
+                <element signature="method#Jedz#0;class#Samochod#0" />
+                <element signature="e#2251#2252#0" expanded="true" />
+                <element signature="e#2300#2301#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/zajecia3/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="492">
+            <state relative-caret-position="782">
               <caret line="46" column="45" selection-start-line="46" selection-start-column="45" selection-end-line="46" selection-end-column="45" />
               <folding>
                 <element signature="method#SprawdzCzyZero#0;class#Main#0" />
@@ -140,8 +174,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/zajecia4/Ksiazka.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="765">
-              <caret line="47" selection-start-line="47" selection-end-line="47" />
+            <state relative-caret-position="238">
+              <caret line="14" lean-forward="true" selection-start-line="3" selection-start-column="4" selection-end-line="14" />
               <folding>
                 <element signature="e#385#386#0" expanded="true" />
                 <element signature="e#433#434#0" expanded="true" />
@@ -170,16 +204,21 @@
         <option value="$PROJECT_DIR$/src/zajecia4/Ksiazka.java" />
         <option value="$PROJECT_DIR$/src/zajecia3/Main.java" />
         <option value="$PROJECT_DIR$/src/zajecia2/Main.java" />
-        <option value="$PROJECT_DIR$/src/zajecia4/Samochod.java" />
         <option value="$PROJECT_DIR$/src/zajecia4/Main.java" />
+        <option value="$PROJECT_DIR$/src/zajecia5/Rodzaj.java" />
+        <option value="$PROJECT_DIR$/src/zajecia5/Ksiazka.java" />
+        <option value="$PROJECT_DIR$/src/zajecia7/List.java" />
+        <option value="$PROJECT_DIR$/src/zajecia5/Main.java" />
+        <option value="$PROJECT_DIR$/src/zajecia4/Samochod.java" />
+        <option value="$PROJECT_DIR$/src/zajecia7/Main.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-1762" />
-    <option name="y" value="172" />
-    <option name="width" value="1546" />
-    <option name="height" value="830" />
+    <option name="x" value="-43" />
+    <option name="y" value="-22" />
+    <option name="width" value="1933" />
+    <option name="height" value="1038" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -224,6 +263,18 @@
             </path>
             <path>
               <item name="JavaTesters" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaTesters" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="zajecia5" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaTesters" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaTesters" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="zajecia7" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaTesters" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
@@ -235,11 +286,20 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559658059843" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559743326889" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="zajecia7" />
+      <recent name="zajecia5" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="zajecia7" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -253,7 +313,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main (3)">
+  <component name="RunManager" selected="Application.Main (4)">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="zajecia2.Main" />
       <module name="JavaTesters" />
@@ -293,6 +353,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Main (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="zajecia7.Main" />
+      <module name="JavaTesters" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="zajecia7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="JavaTesters" />
@@ -308,9 +381,11 @@
       <item itemvalue="Application.Main (1)" />
       <item itemvalue="Application.Main (2)" />
       <item itemvalue="Application.Main (3)" />
+      <item itemvalue="Application.Main (4)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (4)" />
         <item itemvalue="Application.Main (3)" />
         <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main (1)" />
@@ -392,14 +467,21 @@
       <option name="project" value="LOCAL" />
       <updated>1559656139750</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Zajecia 4 - caly homework">
+      <created>1559658076502</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1559658076502</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1928" y="194" width="1936" height="1056" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21321961" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26845637" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -409,7 +491,7 @@
       <window_info id="Learn" order="7" weight="0.3342282" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.20065077" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.26241136" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -417,7 +499,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50067115" side_tool="true" weight="0.32907802" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.04680851" />
-      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49932885" weight="0.3286334" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49932885" weight="0.32765958" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -440,7 +522,8 @@
     <MESSAGE value="Zajecia 4 - part 1" />
     <MESSAGE value="Zajecia 2 - caly homework" />
     <MESSAGE value="Zajecia 3 - caly homework" />
-    <option name="LAST_COMMIT_MESSAGE" value="Zajecia 3 - caly homework" />
+    <MESSAGE value="Zajecia 4 - caly homework" />
+    <option name="LAST_COMMIT_MESSAGE" value="Zajecia 4 - caly homework" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -475,10 +558,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/zajecia4/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="30" column="18" lean-forward="true" selection-start-line="30" selection-start-column="18" selection-end-line="30" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/zajecia4/Ksiazka.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="47" selection-start-line="47" selection-end-line="47" />
+        <state relative-caret-position="238">
+          <caret line="14" lean-forward="true" selection-start-line="3" selection-start-column="4" selection-end-line="14" />
           <folding>
             <element signature="e#385#386#0" expanded="true" />
             <element signature="e#433#434#0" expanded="true" />
@@ -486,22 +576,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/zajecia2/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/zajecia5/Rodzaj.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="642">
-          <caret line="75" column="17" lean-forward="true" selection-start-line="74" selection-start-column="40" selection-end-line="75" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#SprawdzCzyLiczbapierwsza#0;class#Main#0" />
-            <element signature="method#DzienTygodnia#0;class#Main#0" />
-            <element signature="method#PoraRoku#0;class#Main#0" />
-          </folding>
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/zajecia4/Czlowiek.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/zajecia5/Ksiazka.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="29" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/zajecia7/List.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/zajecia5/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/zajecia3/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="492">
+        <state relative-caret-position="782">
           <caret line="46" column="45" selection-start-line="46" selection-start-column="45" selection-end-line="46" selection-end-column="45" />
           <folding>
             <element signature="method#SprawdzCzyZero#0;class#Main#0" />
@@ -515,29 +627,46 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/zajecia4/Czlowiek.java">
+    <entry file="file://$PROJECT_DIR$/src/zajecia2/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
-          <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+          <caret line="24" column="32" lean-forward="true" selection-start-line="20" selection-start-column="8" selection-end-line="24" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#SprawdzCzyLiczbapierwsza#0;class#Main#0" />
+            <element signature="method#DzienTygodnia#0;class#Main#0" />
+            <element signature="method#PoraRoku#0;class#Main#0" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/zajecia4/Samochod.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="748">
-          <caret line="47" column="12" lean-forward="true" selection-start-line="47" selection-start-column="12" selection-end-line="47" selection-end-column="12" />
+        <state relative-caret-position="289">
+          <caret line="26" column="26" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="26" />
           <folding>
             <element signature="e#1011#1012#0" expanded="true" />
             <element signature="e#1044#1045#0" expanded="true" />
-            <element signature="method#&lt;unnamed&gt;#0;class#Samochod#0" />
+            <element signature="method#Jedz#0;class#Samochod#0" />
+            <element signature="e#2251#2252#0" expanded="true" />
+            <element signature="e#2300#2301#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/zajecia4/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/zajecia7/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="30" column="18" lean-forward="true" selection-start-line="30" selection-start-column="18" selection-end-line="30" selection-end-column="18" />
+        <state relative-caret-position="302">
+          <caret line="96" column="10" selection-start-line="96" selection-start-column="10" selection-end-line="96" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#Zadanie1#0;class#Main#0" />
+            <element signature="e#254#262#0" expanded="true" />
+            <element signature="method#Zadanie2#0;class#Main#0" />
+            <element signature="e#550#556#0" expanded="true" />
+            <element signature="method#Zadanie3#0;class#Main#0" />
+            <element signature="e#1067#1075#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
